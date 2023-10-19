@@ -5,7 +5,7 @@ class Employee
 
          public void display()
          {
-              System.out.println("eid: "+eid);
+              System.out.format("eid: %s", eid);
               System.out.println("ename: "+ename);
          }
 }
