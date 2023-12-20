@@ -5,6 +5,6 @@ public class test1 {
         for (int i=1; i<n+1; i++){
             sum += Math.pow(i, 2);
         }
-        System.out.print(sum);
+        System.out.println(sum);
     }
 }

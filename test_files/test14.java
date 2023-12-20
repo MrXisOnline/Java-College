@@ -12,7 +12,7 @@ class Three implements Two{
         System.out.println("This is print");
     }
 }
-public class test14{
+class test14{
     public static void main(String[] args){
             Three three=new Three();
             three.display();
